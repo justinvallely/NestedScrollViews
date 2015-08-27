@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D62B90C8-71F6-4339-890B-25BB7059A16F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NestedScrollViews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7EF7C5B0ADCA57FCC4BC40015B182C52B734915</key>
+		<string>https://github.com/justinvallely/NestedScrollViews.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NestedScrollViews.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7EF7C5B0ADCA57FCC4BC40015B182C52B734915</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/justinvallely/NestedScrollViews.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7EF7C5B0ADCA57FCC4BC40015B182C52B734915</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7EF7C5B0ADCA57FCC4BC40015B182C52B734915</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NestedScrollViews</string>
+		</dict>
+	</array>
+</dict>
+</plist>

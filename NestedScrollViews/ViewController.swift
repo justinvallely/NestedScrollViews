@@ -8,11 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
+
+    @IBOutlet weak var background: UIScrollView!
+    @IBOutlet weak var foreground: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        foreground.delegate = self
+    }
+
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+
+        let foregroundHeight = foreground.contentSize.height - CGRectGetHeight(foreground.bounds)
+        let percentageScroll = foreground.contentOffset.y / foregroundHeight
+        let backgroundHeight = background.contentSize.height - CGRectGetHeight(background.bounds)
+
+        background.contentOffset = CGPoint(x: 0, y: backgroundHeight * percentageScroll)
     }
 
     override func didReceiveMemoryWarning() {
